@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV Profile — LinkedIn-style (Static)</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <!-- Top nav (visual only) -->
+    <header class="topbar">
+        <div class="container topbar__inner">
+            <div class="brand">
+                <div class="brand__logo" aria-hidden="true">in</div>
+                <span class="brand__name">Profile</span>
+            </div>
+
+            <div class="search" aria-label="Search (visual only)">
+                <span class="search__icon" aria-hidden="true">🔎</span>
+                <input class="search__input" type="text" placeholder="Search" disabled />
+            </div>
+
+            <nav class="nav">
+                <a class="nav__item" href="#about">About</a>
+                <a class="nav__item" href="#experience">Experience</a>
+                <a class="nav__item" href="#education">Education</a>
+                <a class="nav__item" href="#skills">Skills</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container layout">
+        <!-- LEFT (main content) -->
+        <section class="col col--main">
+            <!-- Profile header card -->
+            <article class="card profile">
+                <div class="profile__banner" aria-hidden="true"></div>
+
+                <div class="profile__body">
+                    <img class="profile__photo" src="profile-photo.jpg" alt="Foto de perfil" />
+
+                    <div class="profile__meta">
+                        <div class="profile__headline">
+                            <h1 class="profile__name">Jakeline Gomes</h1>
+                            <p class="profile__title">Software Engineering Student • Front-end in training</p>
+                        </div>
+
+                        <div class="profile__info">
+                            <span>Aparecida de Goiânia, Brazil</span>
+                            <span class="dot">•</span>
+                            <a href="#" class="link">Contact info</a>
+                        </div>
+
+                        <p class="profile__summary">
+                            Software engineering student focused on continuous learning and
+                            practical development. Interested in front-end and building
+                            clear, functional solutions.
+                        </p>
+
+                        <div class="profile__actions">
+                            <a class="btn btn--primary" href="#contact">Open to</a>
+                            <a class="btn btn--secondary" href="#contact">Message</a>
+                            <a class="btn btn--ghost" href="#contact">Contact me</a>
+                        </div>
+
+                        <div class="profile__highlights">
+                            <div class="pill">Open to: Remote</div>
+                            <div class="pill">Tech: HTML, CSS, JavaScript</div>
+                            <div class="pill">Interest: Front-end</div>
+                            <div class="pill">Profile: Continuous learner</div>
+                        </div>
+                    </div>
+
+                    <aside class="profile__mini">
+                        <div class="mini">
+                            <div class="mini__logo" aria-hidden="true">🏢</div>
+                            <div>
+                                <div class="mini__title">Current</div>
+                                <div class="mini__text">Software Engineering Student</div>
+                            </div>
+                        </div>
+                        <div class="mini">
+                            <div class="mini__logo" aria-hidden="true">🎓</div>
+                            <div>
+                                <div class="mini__title">Education</div>
+                                <div class="mini__text">Software Engineering</div>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+            </article>
+
+            <!-- About -->
+            <article class="card" id="about">
+                <div class="card__header">
+                    <h2 class="card__title">About</h2>
+                </div>
+                <div class="card__content">
+                    <p>
+                        Software engineering student with interest in front-end development.
+                        Communicative, proactive, and focused on learning by doing.
+                        Looking for opportunities to grow and contribute to real projects.
+                    </p>
+                </div>
+            </article>
+
+            <!-- Experience -->
+            <article class="card" id="experience">
+                <div class="card__header">
+                    <h2 class="card__title">Experience</h2>
+                </div>
+                <div class="card__content">
+                    <div class="item">
+                        <div class="item__logo" aria-hidden="true">💻</div>
+                        <div class="item__body">
+                            <div class="item__top">
+                                <h3 class="item__title">Front-end Student</h3>
+                                <span class="item__meta">Academic Projects</span>
+                            </div>
+                            <div class="item__meta">2025 – Present</div>
+                            <ul class="bullets">
+                                <li>Developed pages using HTML, CSS, and JavaScript.</li>
+                                <li>Practiced layout, responsiveness, and clean structure.</li>
+                                <li>Participated in academic and personal projects.</li>
+                            </ul>
+                            <div class="chips">
+                                <span class="chip">HTML</span><span class="chip">JavaScript</span><span
+                                    class="chip">CSS</span><span class="chip">React</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr class="divider" />
+
+                    <div class="item">
+                        <div class="item__logo" aria-hidden="true">💻</div>
+                        <div class="item__body">
+                            <div class="item__top">
+                                <h3 class="item__title">Software Engineering Student</h3>
+                                <span class="item__meta">Academic Experience • Ongoing</span>
+                            </div>
+                            <div class="item__meta">2025 – Present • Brazil</div>
+                            <ul class="bullets">
+                                <li>Studying software engineering with focus on front-end development and web
+                                    technologies.</li>
+                                <li>Developing practical projects using HTML, CSS and JavaScript.</li>
+                                <li>Learning best practices in clean code, problem solving and teamwork.</li>
+                            </ul>
+                            <div class="chips">
+                                <span class="chip">HTML</span><span class="chip">Git</span><span
+                                    class="chip">JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Education -->
+            <article class="card" id="education">
+                <div class="card__header">
+                    <h2 class="card__title">Education</h2>
+                </div>
+                <div class="card__content">
+                    <div class="item">
+                        <div class="item__logo" aria-hidden="true">🎓</div>
+                        <div class="item__body">
+                            <div class="item__top">
+                                <h3 class="item__title">University Uninter</h3>
+                                <span class="item__meta">Higher Education</span>
+                            </div>
+                            <div class="item__meta">2025 – 2028</div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Skills -->
+            <article class="card" id="skills">
+                <div class="card__header">
+                    <h2 class="card__title">Skills</h2>
+                </div>
+                <div class="card__content">
+                    <div class="skills">
+                        <span class="skill">HTML</span>
+                        <span class="skill">CSS</span>
+                        <span class="skill">React</span>
+                        <span class="skill">JavaScript</span>
+                        <span class="skill">Git</span>
+                        <span class="skill">Logical Thinking</span>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Languages -->
+            <article class="card">
+                <div class="card__header">
+                    <h2 class="card__title">Languages</h2>
+                </div>
+                <div class="card__content">
+                    <div class="skills">
+                        <span class="skill">Portuguese — Native</span>
+                        <span class="skill">English — Basic</span>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Contact -->
+            <article class="card" id="contact">
+                <div class="card__header">
+                    <h2 class="card__title">Contact</h2>
+                </div>
+                <div class="card__content">
+                    <p class="contact-line">
+                        <span class="contact-label">Email:</span>
+                        <a class="link" href="mailto:jakeline@email.com">jakeline@email.com</a>
+                    </p>
+                    <p class="contact-line">
+                        <span class="contact-label">GitHub:</span>
+                        <a class="link" href="#">github.com/jakeline</a>
+                </div>
+            </article>
+        </section>
+
+        <!-- RIGHT (sidebar) -->
+        <aside class="col col--side">
+            <article class="card">
+                <div class="card__header">
+                    <h2 class="card__title">Contact & Links</h2>
+                </div>
+                <div class="card__content list">
+                    <a class="list__row link" href="#contact">Email</a>
+                    <a class="list__row link" href="#contact">GitHub</a>
+                    <a class="list__row link" href="#contact">Portfolio</a>
+                </div>
+            </article>
+
+            <article class="card">
+                <div class="card__header">
+                    <h2 class="card__title">Highlights</h2>
+                </div>
+                <div class="card__content">
+                    <ul class="bullets bullets--compact">
+                        <li>Software Engineering student</li>
+                        <li>Front-end focused</li>
+                        <li>Open to remote opportunities</li>
+                    </ul>
+                </div>
+            </article>
+
+            <article class="card">
+                <div class="card__header">
+                    <h2 class="card__title">People also viewed</h2>
+                </div>
+                <div class="card__content">
+
+                    <div class="pv">
+                        <div class="pv__avatar" style="background-image: url('ana-silva.jpg');" aria-hidden="true">
+                        </div>
+                        <div>
+                            <div class="pv__name">Ana Silva</div>
+                            <div class="pv__role">Front-end Developer</div>
+                        </div>
+                    </div>
+
+                    <div class="pv">
+                        <div class="pv__avatar" style="background-image: url('john-engineer.jpg');" aria-hidden="true">
+                        </div>
+                        <div>
+                            <div class="pv__name">John Engineer</div>
+                            <div class="pv__role">Full-stack React</div>
+                        </div>
+                    </div>
+            </article>
+        </aside>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer__inner">
+            <span>LinkedIn Corporation © 2026</span>
+        </div>
+    </footer>
+</body>
+</html>
