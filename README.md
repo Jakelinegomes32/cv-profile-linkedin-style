@@ -24,6 +24,7 @@ Practice building modern layouts, code organization (indentation and best practi
 
 ## 📸 Preview
 Visual project inspired by LinkedIn, featuring circular profile images and well-organized cards.
+
 ![Preview of LinkedIn Profile Clone](preview.png)
 
 ## 🚀 How to Run the Project
